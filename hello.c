@@ -1,12 +1,16 @@
 #include <stdio.h>
 
 int main() {
-    int num;
+    int num, num2, num3;
 
     printf("Enter a number: ");  // Prompt the user for input
     scanf("%d", &num);  // Read in the user's input and store it in the variable "num"
+    printf("Enter a second number");
+    scanf("%d", &num2);  // Read in the user's input and store it in the variable "num"
+    printf("Enter a third number:");
+    scanf("%d", &num3);  // Read in the user's input and store it in the variable "num"
 
-    printf("You entered: %d", num);  // Display the user's input
+    printf("You entered: %d%4d%4d", num, num2, num3);  // Display the user's input
 
     return 0;
 }
